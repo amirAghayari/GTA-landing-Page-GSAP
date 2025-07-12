@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pink: #ff69b4;
+}
+
+body {
+  width: 100%;
+  background-color: black;
+}
+
+@layer utilities {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+}
